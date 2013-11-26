@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
-    <title>Formulário de Teste - Qualidade</title>
+    <title>Setor de Desenvolvimento - Formulário de Atuação</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css" media="screen" charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" charset="utf-8"/>
@@ -12,7 +12,7 @@
         <div class="container">
           <form role="form" action="#" class="form-horizontal">
             <fieldset>
-              <legend>Formulário de Teste - Qualidade</legend>
+              <legend>Formulário de atuação</legend>
               
               <div class="form-group">
                 <label for="titulo" class="col-sm-3 control-label">Título</label>
@@ -147,189 +147,7 @@
             </fieldset>
           </form>
         </div>
-      </div>
-      
-
-      <div class="col-sm-10">
-        <div class="container">
-          <form role="form" action="#" class="form-horizontal">
-            <fieldset>
-              <legend>Formulário de Teste - Produto</legend>
-              
-              <div class="form-group">
-                <label for="prioridade" class="col-sm-3 control-label"> Prioridade</label>
-                <div class="col-sm-4">
-                  <select name="prioridade" id="prioridade" class="form-control">
-                    <option value="0">Selecione</option>
-                    <option value="1">Prioritário</option>
-                    <option value="2">Normal</option>
-                    <option value="3">Não Prioritário</option>
-                  </select>
-                  <span class="help-block">Selecione a prioridade</span>
-                </div>
-              </div>
-  
-              <div class="form-group">
-                <label for="responsavel" class="col-sm-3 control-label">Responsáveis</label>
-                <div class="col-sm-4">
-                  <select multiple name="responsavel" id="responsavel" class="form-control">
-                    <option value="1">Douglas Lopes</option>
-                    <option value="2">Helio Bertolini</option>
-                    <option value="3">Letícia Bomfin</option>
-                    <option value="4">Pedro Lopes</option>
-                    <option value="5">Tales Barreto</option>
-                  </select>
-                  <span class="help-block">Selecione os responsáveis</span>
-                </div>
-
-              </div>
-              <div class="form-group">
-                <label for="versaoimp" class="col-sm-3 control-label">Versão de Implementação</label>
-                <div class="col-sm-4">
-                  <input type="text" class="form-control col-sm-3" placeholder="##.##.##" id="versaoimp">
-                  <span class="help-block"> 
-                    Digite a versão que deverá ser implementada. <br />
-                    Digite no formato ##.##.## 
-                   </span>
-                </div>
-              </div>
-              
-              <button type="submit" class="btn btn-primary col-sm-2 col-sm-offset-3">Enviar</button>
-            </fieldset>
-          </form>
-        </div>
-      </div>
-      
-      
-      <div class="col-sm-10">
-        <div class="container">
-          <form role="form" action="#" class="form-horizontal">
-            <fieldset>
-              <legend>Formulário de Teste - Identificação</legend>  
-              <div class="form-group">
-                <label for="maisinfos" class="col-sm-3 control-label"> Necessita de mais Informações?</label>
-                <div class="col-sm-4">
-                  <select name="maisinfos" id="maisinfos" class="form-control">
-                    <option value="-1">Selecione</option>
-                    <option value="0">Não</option>
-                    <option value="1">Sim</option>
-                  </select>
-                  <span class="help-block">Necessidade de mais informações</span>
-                </div>
-              </div>
-  
-              <div class="form-group">
-                <label for="infosmais" class="col-sm-3 control-label">Quais informações?</label>
-                <div class="col-sm-4">
-                  <textarea rows="4" class="form-control" placeholder="Descreva as informações necessárias" id="infosmais"> </textarea>
-                  <span class="help-block">Descreva as informações necessárias</span>
-                </div>
-              </div>
-
-              <div class="form-group">
-                <label for="alterar" class="col-sm-3 control-label"> Necessita de alterações?</label>
-                <div class="col-sm-4">
-                  <select name="alterar" id="alterar" class="form-control">
-                    <option value="-1">Selecione</option>
-                    <option value="0">Não</option>
-                    <option value="1">Sim</option>
-                  </select>
-                  <span class="help-block">Necessidade de alterações?</span>
-                </div>
-              </div>
-  
-              <div class="form-group">
-                <label for="necessidade" class="col-sm-3 control-label">Quais Alterações?</label>
-                <div class="col-sm-4">
-                  <textarea rows="4" class="form-control" placeholder="Descreva as informações necessárias" id="necessidade"> </textarea>
-                  <span class="help-block">Descreva as alterações necessárias</span>
-                </div>
-              </div>
-              
-              <button type="submit" class="btn btn-primary col-sm-2 col-sm-offset-3">Enviar</button>
-            </fieldset>
-          </form>
-        </div>
-      </div>
-      
-      
-      <div class="col-sm-10">
-        <div class="container">
-          <form role="form" action="#" class="form-horizontal">
-            <fieldset>
-              <legend>Formulário de Análise - Desenvolvimento</legend>  
-              <div class="form-group">
-                <label for="dataesperada" class="col-sm-3 control-label"> Data esperada</label>
-                <div class="col-sm-4">
-                  <input type="date" name="dataesperada" value="" id="dataesperada"/>
-                  <span class="help-block">Data de finalização</span>
-                </div>
-              </div>
-  
-              <div class="form-group">
-                <label for="modulos" class="col-sm-3 control-label">Modulos e classe a se alterar</label>
-                <div class="col-sm-4">
-                  <select multiple name="modulos" id="modulos" class="form-control">
-                    <option value="1">Módulo 1</option>
-                    <option value="2">Módulo 2</option>
-                    <option value="3">Módulo 3</option>
-                    <option value="4">Módulo 4</option>
-                    <option value="5">Módulo 5</option>
-                  </select>
-                  <span class="help-block">Selecione quais módulos deverão ser alterados</span>
-                </div>
-              </div>
-              
-              <div class="form-group">
-                <label for="atuacao" class="col-sm-3 control-label">Descrição da atuação?</label>
-                <div class="col-sm-4">
-                  <textarea rows="4" class="form-control" id="atuacao"> </textarea>
-                  <span class="help-block">Descreva o que será feito para sanar o problema</span>
-                </div>
-              </div>
-              
-              <button type="submit" class="btn btn-primary col-sm-2 col-sm-offset-3">Enviar</button>
-            </fieldset>
-          </form>
-        </div>
-      </div>
-      
-      <div class="col-sm-10">
-        <div class="container">
-          <form role="form" action="#" class="form-horizontal">
-            <fieldset>
-              <legend>Formulário de Verificação - Qualidade</legend>  
-                
-              <div class="form-group">
-                <label for="status" class="col-sm-3 control-label">Qual o status da tarefa?</label>
-                <div class="col-sm-4">
-                  <select name="status" id="status" class="form-control">
-                    <option value="0">Selecione</option>
-                    <option value="1">Retornar ao desenvolvimento</option>
-                    <option value="2">Problema sanado</option>
-                  </select>
-                  <span class="help-block">Selecione se o problema foi sanado ou não</span>
-                </div>
-              </div>
-              
-              <div class="form-group">
-                <label for="conclusoes" class="col-sm-3 control-label">Conclusões</label>
-                <div class="col-sm-4">
-                  <textarea rows="4" class="form-control" id="conclusoes"> </textarea>
-                  <span class="help-block">Descreva as conclusões sobre o problema</span>
-                </div>
-              </div>
-              
-              <button type="submit" class="btn btn-primary col-sm-2 col-sm-offset-3">Enviar</button>
-            </fieldset>
-          </form>
-        </div>
       </div>      
-      
-      
-      
-      
-      
     </div>
     <script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
     <script src="js/bootstrap.js"></script>
